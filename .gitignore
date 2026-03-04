@@ -8,3 +8,5 @@ venv/
 .streamlit/secrets.toml
 dist/
 build/
+data/
+*.csv
