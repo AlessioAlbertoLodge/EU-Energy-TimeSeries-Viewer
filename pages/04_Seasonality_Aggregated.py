@@ -22,7 +22,7 @@ st.caption(
 )
 
 # --- Load dataset ---
-default_csv = r"C:\Users\lodgeaa\Desktop\Private Projects\Dataset1_streamlit_app\data\time_series_60min_singleindex.csv"
+default_csv = r"C:\Users\aless\Desktop\Streamlit_Apps_Backup\Dataset1_streamlit_app\data\time_series_60min_singleindex.csv"
 data_path = st.text_input("CSV path", value=default_csv)
 
 with st.spinner("Loading dataset..."):
